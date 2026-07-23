@@ -166,5 +166,5 @@ python ~/ros2_ws/src/secure_patrol/secure_patrol/patrol.py
 
 Unfortunately, the ROSMASTER X3 comes prepackaged with ROS2 Humble, which does not support PKCS#11 URIs that link to hardware security modules. However, I did include the script that transfers all enclave private keys to SoftHSM2 that I used.  It is theoretically possible for HSMs to work with more recent distros such as Jazzy. However, I did not want to accidentally brick the ROSMASTER X3 by updating, so I left it as it is.
 
-> ![NOTE]
+> [!NOTE]
 > Install SoftHSM2 and PKCS#11 with `sudo apt install softhsm2` and `sudo apt install opensc` before using the script.
