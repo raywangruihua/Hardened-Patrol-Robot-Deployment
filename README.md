@@ -1,4 +1,4 @@
-# Hardening Patrol Robot Deployment
+# Hardened Patrol Robot Deployment
 
 This is intended as a reference for projects involving the Yahboom ROSMASTER X3 and for using the SROS2 package with SoftHSM2.
 
